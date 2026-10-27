@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+
+        <!-- Marcador GPS (Pin) verde -->
+        <path android:pathData="M 54,14 C 34,14 18,30 18,50 C 18,72 54,94 54,94 C 54,94 90,72 90,50 C 90,30 74,14 54,14 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="18"
+                    android:startY="14"
+                    android:endX="90"
+                    android:endY="94"
+                    android:type="linear">
+                    <item android:color="#FF7CB342" android:offset="0.0" />
+                    <item android:color="#FF1B5E20" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Círculo blanco central -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 54,26 A 19,19 0 1,0 54,64 A 19,19 0 1,0 54,26 Z" />
+
+        <!-- Flash / Botón superior de la cámara -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 43,36 h 7 v 3 h -7 z" />
+
+        <!-- Cuerpo de la cámara -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M 40,39 h 28 v 15 h -28 z" />
+
+        <!-- Lente de la cámara -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#000000"
+            android:strokeWidth="2"
+            android:pathData="M 57,46.5 A 5,5 0 1,0 57,46.51 Z" />
+
+        <!-- Visor de la cámara -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 43,42 h 5 v 2 h -5 z" />
+
+    </group>
+
+</vector>
