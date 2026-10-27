@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema claro inspirado en tonos verdes -->
+    <style name="Base.Theme.MiGaleriaGPS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_tree</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/green_leaf</item>
+        <item name="android:colorAccent">@color/green_tree</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.MiGaleriaGPS" parent="Base.Theme.MiGaleriaGPS" />
+</resources>
